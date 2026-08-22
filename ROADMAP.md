@@ -284,29 +284,29 @@ Notation :
 
 - [x] Creer le dossier `.github/workflows/`
 - [x] Creer le fichier `.github/workflows/ci.yml`
-- [ ] Creer le squelette du workflow CI avec `name`, `on`, `jobs` et `steps`
-- [ ] Ajouter `actions/checkout` dans un vrai step
-- [ ] Ajouter progressivement le setup Python
-- [ ] Ajouter progressivement le setup Node
-- [ ] Committer le workflow CI rempli
-- [ ] Pousser le workflow CI sur GitHub
+- [x] Creer le squelette du workflow CI avec `name`, `on`, `jobs` et `steps`
+- [x] Ajouter `actions/checkout` dans un vrai step
+- [x] Ajouter progressivement le setup Python
+- [x] Ajouter progressivement le setup Node
+- [x] Committer le workflow CI rempli
+- [x] Pousser le workflow CI sur GitHub
 
 ## Phase 32 - CI backend
 
-- [ ] Installer Python dans GitHub Actions
-- [ ] Installer les dependances backend dans la CI
-- [ ] Lancer `python manage.py check`
-- [ ] Lancer les tests Django
-- [ ] Comprendre le role du fallback SQLite dans la CI
-- [ ] Verifier que le job backend passe sur GitHub
+- [x] Installer Python dans GitHub Actions
+- [x] Installer les dependances backend dans la CI
+- [x] Lancer `python manage.py check`
+- [x] Lancer les tests Django
+- [x] Comprendre le role du fallback SQLite dans la CI
+- [x] Verifier que le job backend passe sur GitHub
 
 ## Phase 33 - CI frontend
 
-- [ ] Installer Node dans GitHub Actions
-- [ ] Installer les dependances avec `npm ci`
-- [ ] Lancer `npm run lint`
-- [ ] Lancer `npm run build`
-- [ ] Verifier que le job frontend passe sur GitHub
+- [x] Installer Node dans GitHub Actions
+- [x] Installer les dependances avec `npm ci`
+- [x] Lancer `npm run lint`
+- [x] Lancer `npm run build`
+- [x] Verifier que le job frontend passe sur GitHub
 
 ## Phase 34 - GitHub Secrets
 
@@ -415,9 +415,6 @@ Notation :
 
 ## Prochaine etape immediate
 
-- [ ] Remplir `.github/workflows/ci.yml`
-- [ ] Commencer par la cle `name`
-- [ ] Expliquer `name`
-- [ ] Ajouter ensuite `on`
-- [ ] Expliquer `on`
-- [ ] Continuer le workflow petit a petit
+- [ ] Ajouter le build Docker backend dans GitHub Actions
+- [ ] Ajouter le build Docker frontend dans GitHub Actions
+- [ ] Verifier que les images Docker se construisent sur GitHub Actions
